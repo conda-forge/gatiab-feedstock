@@ -1,6 +1,6 @@
 {% set name = "gatiab" %}
-{% set version = "1.1.0" %}
-{% set python_min = "3.9.19" %}
+{% set version = "1.1.1" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gatiab-{{ version }}.tar.gz
-  sha256: 0fdd77decd846cff54f51542a1e370385ef8fe0936644a6c71ae95f2aed570e4
+  sha256: 9f7892ef28ce94a73682777c0cab655d0690305346d30e252ecb8141456a5824
 
 build:
   noarch: python
